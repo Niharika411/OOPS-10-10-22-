@@ -1,0 +1,20 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+int num;
+float result;
+cout<<"Enter number: ";
+cin >> num;
+if(num<0)
+{
+	cout<<"INVALID INPUT";
+}
+else
+{
+result = pow(num,0.5);
+cout << "Square root of given number is " << result;
+}
+return 0;
+}
